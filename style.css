@@ -1,0 +1,34 @@
+#container {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  /* border: 1px solid; */
+}
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Country_tile {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}
+
+.image {
+  height: 1em;
+  width:1.5em;
+}
+
+img {
+    height: 10em;
+    width: 20em;
+}
